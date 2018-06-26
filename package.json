@@ -6,14 +6,18 @@
   "description": "The Simple API for Google Analytics™",
   "homepage": "http://oocharts.com",
   "scripts": {
-      "start" : "node app.js"
+    "start": "node app.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "moment": "~2.6.0",
-    "express": "~4.1.1",
+    "express": "~4.16.0",
     "nconf": "~0.6.9",
-    "googleapis": "~0.7.0",
-    "body-parser": "~1.0.2",
-    "ga-validator": "~0.1.5"
-  }
+    "googleapis": "~1.0.23",
+    "body-parser": "~1.3.1",
+    "ga-validator": "~0.1.5",
+    "snyk": "^1.85.0"
+  },
+  "snyk": true
 }
