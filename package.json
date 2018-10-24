@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "moment": "~2.6.0",
-    "express": "~4.1.1",
+    "express": "~4.15.5",
     "nconf": "~0.6.9",
-    "googleapis": "~0.7.0",
+    "googleapis": "~12.1.0",
     "body-parser": "~1.0.2",
     "ga-validator": "~0.1.5"
   }
